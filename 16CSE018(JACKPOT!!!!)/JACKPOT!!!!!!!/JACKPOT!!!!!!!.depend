@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1524019430 source:c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\games.cpp
+	"All_Headers.h"
+
+1524017610 c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\all_headers.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<bits/stdc++.h>
+	"print.h"
+	"Games.h"
+
+1524019284 c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\print.h
+
+1524017733 c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\games.h
+
+1524017562 source:c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\main.cpp
+	"All_Headers.h"
+
+1524019835 source:c:\users\sourav\desktop\new folder (4)\jackpot!!!!!!!\print.cpp
+	"All_Headers.h"
+
+1524017564 source:f:\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\main.cpp
+	"All_Headers.h"
+
+1524017612 f:\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\all_headers.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<bits/stdc++.h>
+	"print.h"
+	"Games.h"
+
+1524019286 f:\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\print.h
+
+1524017734 f:\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\games.h
+
+1524017564 source:h:\all study\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\main.cpp
+	"All_Headers.h"
+
+1524017612 h:\all study\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\all_headers.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+	<cstdio>
+	<bits/stdc++.h>
+	"print.h"
+	"Games.h"
+
+1524019286 h:\all study\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\print.h
+
+1524017734 h:\all study\study\c++ project of cse 4th batch\16cse018(jackpot!!!!)\jackpot!!!!!!!\games.h
+

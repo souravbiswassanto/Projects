@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T17:09:12.038Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="f-py0Aa3-i0Hi5mplCLm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T17:10:17.296Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="zaE_tRhd5q7SR_ulXuPR" type="github">
   <diagram id="wbkt6HfqlIf_TVYaDv4-" name="Page-1">
     <mxGraphModel dx="880" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,6 +81,13 @@
         <mxCell id="oPC-U731oiN2YdVs4txt-27" value="schedule the meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="740" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-29" target="oPC-U731oiN2YdVs4txt-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-29" value="launch meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="860" width="120" height="30" as="geometry" />
         </mxCell>
@@ -104,6 +111,9 @@
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-33" value="ignore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="655" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-35" target="oPC-U731oiN2YdVs4txt-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-35" value="notify sender and launch meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="930" width="120" height="30" as="geometry" />
@@ -138,6 +148,9 @@
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="535" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-69" value="meeting" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="920" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:47:51.719Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="lPLXCtC_8EqtPyljRxdq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T16:51:08.272Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="HYyfLubKpYrXOZV-VEWB" type="github">
   <diagram id="wbkt6HfqlIf_TVYaDv4-" name="Page-1">
     <mxGraphModel dx="880" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-27" value="schedule the meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-29" value="launch meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="850" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-30" value="notify sender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="655" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

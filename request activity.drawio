@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T10:32:10.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rSV_JVm1k2nUUNCkeIR-" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T10:38:45.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UQuMbWp9rNwYjUnhFg9K" version="20.8.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
         <mxCell id="nQeolu39O7KRunp5My-d-7" value="regular" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="400" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nQeolu39O7KRunp5My-d-15" value="select doctor&amp;nbsp; from active doctors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nQeolu39O7KRunp5My-d-15" value="provide patient credentials" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="360" y="480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nQeolu39O7KRunp5My-d-17" value="search doctor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -68,11 +68,23 @@
             <mxPoint x="220" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nQeolu39O7KRunp5My-d-23" value="select doctor and patient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nQeolu39O7KRunp5My-d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nQeolu39O7KRunp5My-d-23" target="nQeolu39O7KRunp5My-d-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQeolu39O7KRunp5My-d-23" value="select patient and fill necessary data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nQeolu39O7KRunp5My-d-25" value="select doctor and patient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nQeolu39O7KRunp5My-d-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nQeolu39O7KRunp5My-d-25" target="nQeolu39O7KRunp5My-d-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nQeolu39O7KRunp5My-d-25" value="submit request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nQeolu39O7KRunp5My-d-27" value="request is send directly to the doctor mentioned" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nQeolu39O7KRunp5My-d-29" value="submit request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

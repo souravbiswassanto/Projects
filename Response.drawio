@@ -1,20 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:51:08.272Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="HYyfLubKpYrXOZV-VEWB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T17:05:00.805Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="4TJyb0NsC-aJD-C7moEn" type="github">
   <diagram id="wbkt6HfqlIf_TVYaDv4-" name="Page-1">
     <mxGraphModel dx="880" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oPC-U731oiN2YdVs4txt-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-1" target="oPC-U731oiN2YdVs4txt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-1" value="request handler activity(doctor)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="140" width="120" height="50" as="geometry" />
+          <mxGeometry x="425" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-2" target="oPC-U731oiN2YdVs4txt-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-2" value="consult request appeared on notification panel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="230" width="120" height="50" as="geometry" />
+          <mxGeometry x="425" y="200" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-3" target="oPC-U731oiN2YdVs4txt-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-3" value="request type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="310" width="120" height="30" as="geometry" />
+          <mxGeometry x="430" y="290" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-15" target="oPC-U731oiN2YdVs4txt-18">
           <mxGeometry relative="1" as="geometry" />
@@ -29,16 +35,16 @@
           <mxGeometry x="450" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-16" value="late night" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="620" y="480" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-17" value="emergency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="430" y="480" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-18" value="regular" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="500" width="120" height="30" as="geometry" />
+          <mxGeometry x="200" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oPC-U731oiN2YdVs4txt-23" value="view meeting details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="560" width="120" height="30" as="geometry" />
+        <mxCell id="oPC-U731oiN2YdVs4txt-23" value="view request details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-24" value="Want to join meeting?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="630" width="80" height="80" as="geometry" />
@@ -53,7 +59,25 @@
           <mxGeometry x="190" y="850" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-30" value="notify sender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="655" width="80" height="30" as="geometry" />
+          <mxGeometry x="340" y="655" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-31" value="view request details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-32" value="Want to join meeting?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-33" value="ignore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="655" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-35" value="notify sender and launch meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="930" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-36" value="set meeting_on_&lt;br&gt;progress = true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="860" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-37" value="meeting_on_&lt;br&gt;progress == false?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="750" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,17 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:06:36.109Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="aCGv8JkG7PQaB2NQz0AA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T16:47:51.719Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="lPLXCtC_8EqtPyljRxdq" type="github">
   <diagram id="wbkt6HfqlIf_TVYaDv4-" name="Page-1">
     <mxGraphModel dx="880" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oPC-U731oiN2YdVs4txt-1" value="request handler activity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oPC-U731oiN2YdVs4txt-1" value="request handler activity(doctor)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="140" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-2" value="consult request appeared on notification panel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="230" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-3" target="oPC-U731oiN2YdVs4txt-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oPC-U731oiN2YdVs4txt-3" value="request type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="320" width="120" height="30" as="geometry" />
+          <mxGeometry x="430" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-15" target="oPC-U731oiN2YdVs4txt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-15" target="oPC-U731oiN2YdVs4txt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oPC-U731oiN2YdVs4txt-15" target="oPC-U731oiN2YdVs4txt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-15" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-16" value="late night" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-17" value="emergency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-18" value="regular" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-23" value="view meeting details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-24" value="Want to join meeting?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-26" value="notify sender about schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oPC-U731oiN2YdVs4txt-27" value="schedule the meeting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="740" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1> Mr Ajaira</h1>
+	<div class="topDiv">
+		<img id="d" src= "{% static 'images/scared-bug.jpg' %}">
+	</div>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Department</th>	
+		</tr>
+		{% for st in student %}
+		<tr>
+			<td>{{ st.name }}</td>
+			<td>{{ st.age }}</td>
+			<td>{{ st.dept }}</td>
+		</tr>
+		{% endfor %}
+		{% for t in teacher %}
+		<tr>
+			<td>{{ t.name }}</td>
+			<td>{{ t.age }}</td>
+			<td>{{ t.department }}</td>
+			<td>{{ t.rank }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>

@@ -1,0 +1,16 @@
+-m venv myproject   Opens a myproject folder which can work as venv.
+.\myproject\Scripts\activate to activate venv
+django-admin startproject Test   \\ to start a project
+py manage.py startapp app1    \\ start a new app
+
+migrate
+py manage.py migrate
+py manage.py makemigrations app1
+py manage.py migrate 
+
+admin panel super user
+py manage.py createsuperuser
+pip install virtualenvwrapper
+pip install virtualenvwrapper-win
+mkvirtualenv myproject
+workon myproject

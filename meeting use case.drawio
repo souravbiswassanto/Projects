@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T16:40:13.174Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="ysgEOdt-KubZ8xhYbI3w" type="github"><diagram name="Page-1" id="v6ugSu8cuOPKw1JPtARv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-25T16:42:41.119Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="gA-kb3L1e_8Sreqz8wMp" version="21.0.6" type="github">
+  <diagram name="Page-1" id="v6ugSu8cuOPKw1JPtARv">
+    <mxGraphModel dx="1674" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LkEcz__NUMMovedEGvOY-1" value="doctor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-2" value="zoom api" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-3" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-4" value="create meeting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LkEcz__NUMMovedEGvOY-3">
+          <mxGeometry x="40" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-5" value="authorize" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LkEcz__NUMMovedEGvOY-3">
+          <mxGeometry x="40" y="90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-6" value="call back" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LkEcz__NUMMovedEGvOY-3">
+          <mxGeometry x="40" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-8" value="database" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="LkEcz__NUMMovedEGvOY-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-11" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LkEcz__NUMMovedEGvOY-4" target="LkEcz__NUMMovedEGvOY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LkEcz__NUMMovedEGvOY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="280" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LkEcz__NUMMovedEGvOY-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="320" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LkEcz__NUMMovedEGvOY-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LkEcz__NUMMovedEGvOY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="460" as="sourcePoint" />
+            <mxPoint x="190" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
